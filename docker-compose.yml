@@ -1,7 +1,0 @@
-services:
-  monitor-3d:
-    build: .
-    container_name: monitor-3d
-    restart: unless-stopped
-    ports:
-      - "5050:5050"
