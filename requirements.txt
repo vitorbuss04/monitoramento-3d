@@ -1,0 +1,6 @@
+Flask
+google-genai
+python-dotenv
+APScheduler
+requests
+opencv-python-headless

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  monitor-3d:
+    build: .
+    container_name: monitor-3d
+    restart: unless-stopped
+    ports:
+      - "5050:5050"
+    # O arquivo .env será lido automaticamente pelo Docker Compose e passado para o container
+    env_file:
+      - .env
